@@ -19,7 +19,7 @@ public class TaskService {
     }
 
     public List<Task> getAllTasks() {
-        return taskRepository.findAll();
+        return taskRepository.findAllByOrderByDateAscTimeAsc();
     }
 
     public Optional<Task> getTaskById(Long id) {
