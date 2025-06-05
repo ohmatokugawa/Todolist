@@ -31,7 +31,7 @@ public class Task {
         this.state = state;
     }
 
-    // Gettery i settery dla danych
+    
     public long getId() {
         return id;
     }
